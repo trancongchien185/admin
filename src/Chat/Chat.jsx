@@ -4,7 +4,7 @@ import "./Chat.css";
 import { ThreeDots } from "react-loader-spinner";
 
 import { io } from "socket.io-client";
-const socket = io("http://localhost:5000", {
+const socket = io("https://asm-03-njs.onrender.com", {
   transports: ["websocket"],
 });
 
